@@ -4,7 +4,7 @@
 - **Name:** Anirudh Sharma  
 - **Roll Number:** 1024030536  
 - **Batch:** 2C35  
-- **College:** TEIT  
+- **College:** TIET  
 
 ## Subject Information
 - **Subject Name:** Data Structures and Algorithms (C++)  
@@ -21,6 +21,14 @@ trees, graphs, and more.
 - `README.md` → This file
 
 ## How to Compile and Run
+
+### **For Mac/Linux**
 ```bash
 g++ filename.cpp -o output
 ./output
+```
+### **For Windows**
+```bash
+g++ filename.cpp -o output.exe
+output.exe
+```
