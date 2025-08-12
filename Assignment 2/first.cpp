@@ -28,11 +28,13 @@ int main() {
     {
         cin>>arr[i];
     }
+
+    sort(arr, arr + size);
     
     int target;
     cout << "What element do you want to find? "<<endl;
     cin >> target;
     int index = binarySearch(arr, size, target);
-    if (index != -1) cout << "Found at index " << index << endl;
+    if (index != -1) cout << "Found at index " << index <<" after sorting"<< endl;
     else cout << "Not found" << endl;
 }
