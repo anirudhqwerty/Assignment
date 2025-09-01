@@ -38,7 +38,6 @@ int evaluate(string str){
     }
     return s.top();
 }
-
 int main(){
     string str;
     cout<<"Enter a postfix expression: ";
